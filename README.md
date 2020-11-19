@@ -11,7 +11,8 @@ The problem is specified in a text file format where each line contains a list o
 * S — the set of sensors, S, together with the corresponding rooms, having each field with the form s : r : TPR : FPR where r = l(s) is the room where sensor s is located, and TPR and FPR are its true positive and false positive rates
 * P — the propagation probability P=[0; 1]
 * M —a measurement where each one of the remaining fields have the form s : z where s is the sensor and z (True; False) is the measurement.
-Input file examples are presented in the Examples Folder.
+
+Input file examples are presented in the examples Folder.
 
 # Implementation
 The code should use the implementation of Bayes networks and variable elimination algorithm of the AIMA repository:
